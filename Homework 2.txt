@@ -1,0 +1,440 @@
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p
+Enter password: **********
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 53
+Server version: 8.0.26 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> USE example;
+Database changed
+mysql> select * from users;
++-----+------------+
+| id  | name       |
++-----+------------+
+|   1 | Kayden     |
+|   2 | Beulah     |
+|   3 | Sierra     |
+|   4 | Else       |
+|   5 | Davonte    |
+|   6 | Lora       |
+|   7 | Chasity    |
+|   8 | Stan       |
+|   9 | Julie      |
+|  10 | Elian      |
+|  11 | Cedrick    |
+|  12 | Grayson    |
+|  13 | Gladys     |
+|  14 | Leonor     |
+|  15 | Solon      |
+|  16 | Newton     |
+|  17 | Rhiannon   |
+|  18 | Rebekah    |
+|  19 | Tyreek     |
+|  20 | Wallace    |
+|  21 | Rubye      |
+|  22 | Leland     |
+|  23 | Winnifred  |
+|  24 | Everette   |
+|  25 | Merle      |
+|  26 | Fausto     |
+|  27 | Nia        |
+|  28 | Jessica    |
+|  29 | Bruce      |
+|  30 | Jenifer    |
+|  31 | Salvador   |
+|  32 | Linnea     |
+|  33 | Cristopher |
+|  34 | Leonie     |
+|  35 | Malika     |
+|  36 | Issac      |
+|  37 | Zaria      |
+|  38 | Ottilie    |
+|  39 | Nia        |
+|  40 | Dahlia     |
+|  41 | Ursula     |
+|  42 | Ellen      |
+|  43 | Ova        |
+|  44 | Jordyn     |
+|  45 | Scarlett   |
+|  46 | Jean       |
+|  47 | Charity    |
+|  48 | Gideon     |
+|  49 | Cooper     |
+|  50 | Hester     |
+|  51 | Clovis     |
+|  52 | Johnnie    |
+|  53 | Hugh       |
+|  54 | Remington  |
+|  55 | Glenna     |
+|  56 | Reymundo   |
+|  57 | Archibald  |
+|  58 | Destin     |
+|  59 | Kayley     |
+|  60 | Audra      |
+|  61 | Rollin     |
+|  62 | Herta      |
+|  63 | Kaylie     |
+|  64 | Zita       |
+|  65 | Nina       |
+|  66 | Alfonzo    |
+|  67 | Vita       |
+|  68 | Antonetta  |
+|  69 | Fern       |
+|  70 | Nella      |
+|  71 | Mona       |
+|  72 | Travon     |
+|  73 | Buck       |
+|  74 | Freddy     |
+|  75 | Dolly      |
+|  76 | Jamal      |
+|  77 | Haskell    |
+|  78 | Graciela   |
+|  79 | Elvie      |
+|  80 | Giovanni   |
+|  81 | Shakira    |
+|  82 | Carrie     |
+|  83 | Albert     |
+|  84 | Dominique  |
+|  85 | Oceane     |
+|  86 | Hubert     |
+|  87 | Brice      |
+|  88 | Haylie     |
+|  89 | Ambrose    |
+|  90 | Daphnee    |
+|  91 | Glenda     |
+|  92 | Constance  |
+|  93 | Giovanna   |
+|  94 | Allene     |
+|  95 | Lina       |
+|  96 | Koby       |
+|  97 | Lydia      |
+|  98 | Loy        |
+|  99 | Daisha     |
+| 100 | Fletcher   |
++-----+------------+
+100 rows in set (0.01 sec)
+
+mysql> CREATE DATABASE sample;
+Query OK, 1 row affected (0.32 sec)
+
+mysql> exits
+    ->
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'exits' at line 1
+mysql> exit;
+Bye
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysqldump -u root -p example>D:\MySQL_Dump\example_dump.sql
+Enter password: **********
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p sample<D:\MySQL_Dump\example_dump1.sql
+Не удается найти указанный файл.
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>meysql -u root -p
+"meysql" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p
+Enter password: **********
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 55
+Server version: 8.0.26 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> CREATE DATABASE samole;
+Query OK, 1 row affected (0.23 sec)
+
+mysql> exit
+Bye
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p sample<D:\MySQL_Dump\example_dump.sql
+Enter password: **********
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p
+Enter password: **********
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 57
+Server version: 8.0.26 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use sample
+Database changed
+mysql> show databases
+    -> ;
++--------------------+
+| Database           |
++--------------------+
+| example            |
+| information_schema |
+| mysql              |
+| performance_schema |
+| samole             |
+| sample             |
+| sys                |
+| test1              |
+| test2              |
+| vk                 |
++--------------------+
+10 rows in set (0.12 sec)
+
+mysql> select * from sample;
+ERROR 1146 (42S02): Table 'sample.sample' doesn't exist
+mysql> use sample;
+Database changed
+mysql> select * from users;
++-----+------------+
+| id  | name       |
++-----+------------+
+|   1 | Kayden     |
+|   2 | Beulah     |
+|   3 | Sierra     |
+|   4 | Else       |
+|   5 | Davonte    |
+|   6 | Lora       |
+|   7 | Chasity    |
+|   8 | Stan       |
+|   9 | Julie      |
+|  10 | Elian      |
+|  11 | Cedrick    |
+|  12 | Grayson    |
+|  13 | Gladys     |
+|  14 | Leonor     |
+|  15 | Solon      |
+|  16 | Newton     |
+|  17 | Rhiannon   |
+|  18 | Rebekah    |
+|  19 | Tyreek     |
+|  20 | Wallace    |
+|  21 | Rubye      |
+|  22 | Leland     |
+|  23 | Winnifred  |
+|  24 | Everette   |
+|  25 | Merle      |
+|  26 | Fausto     |
+|  27 | Nia        |
+|  28 | Jessica    |
+|  29 | Bruce      |
+|  30 | Jenifer    |
+|  31 | Salvador   |
+|  32 | Linnea     |
+|  33 | Cristopher |
+|  34 | Leonie     |
+|  35 | Malika     |
+|  36 | Issac      |
+|  37 | Zaria      |
+|  38 | Ottilie    |
+|  39 | Nia        |
+|  40 | Dahlia     |
+|  41 | Ursula     |
+|  42 | Ellen      |
+|  43 | Ova        |
+|  44 | Jordyn     |
+|  45 | Scarlett   |
+|  46 | Jean       |
+|  47 | Charity    |
+|  48 | Gideon     |
+|  49 | Cooper     |
+|  50 | Hester     |
+|  51 | Clovis     |
+|  52 | Johnnie    |
+|  53 | Hugh       |
+|  54 | Remington  |
+|  55 | Glenna     |
+|  56 | Reymundo   |
+|  57 | Archibald  |
+|  58 | Destin     |
+|  59 | Kayley     |
+|  60 | Audra      |
+|  61 | Rollin     |
+|  62 | Herta      |
+|  63 | Kaylie     |
+|  64 | Zita       |
+|  65 | Nina       |
+|  66 | Alfonzo    |
+|  67 | Vita       |
+|  68 | Antonetta  |
+|  69 | Fern       |
+|  70 | Nella      |
+|  71 | Mona       |
+|  72 | Travon     |
+|  73 | Buck       |
+|  74 | Freddy     |
+|  75 | Dolly      |
+|  76 | Jamal      |
+|  77 | Haskell    |
+|  78 | Graciela   |
+|  79 | Elvie      |
+|  80 | Giovanni   |
+|  81 | Shakira    |
+|  82 | Carrie     |
+|  83 | Albert     |
+|  84 | Dominique  |
+|  85 | Oceane     |
+|  86 | Hubert     |
+|  87 | Brice      |
+|  88 | Haylie     |
+|  89 | Ambrose    |
+|  90 | Daphnee    |
+|  91 | Glenda     |
+|  92 | Constance  |
+|  93 | Giovanna   |
+|  94 | Allene     |
+|  95 | Lina       |
+|  96 | Koby       |
+|  97 | Lydia      |
+|  98 | Loy        |
+|  99 | Daisha     |
+| 100 | Fletcher   |
++-----+------------+
+100 rows in set (0.00 sec)
+
+mysql> exit
+Bye
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql
+mysql: [ERROR] unknown variable 'USER=root'.
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 59
+Server version: 8.0.26 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use example;
+Database changed
+mysql> select * from users;
++-----+------------+
+| id  | name       |
++-----+------------+
+|   1 | Kayden     |
+|   2 | Beulah     |
+|   3 | Sierra     |
+|   4 | Else       |
+|   5 | Davonte    |
+|   6 | Lora       |
+|   7 | Chasity    |
+|   8 | Stan       |
+|   9 | Julie      |
+|  10 | Elian      |
+|  11 | Cedrick    |
+|  12 | Grayson    |
+|  13 | Gladys     |
+|  14 | Leonor     |
+|  15 | Solon      |
+|  16 | Newton     |
+|  17 | Rhiannon   |
+|  18 | Rebekah    |
+|  19 | Tyreek     |
+|  20 | Wallace    |
+|  21 | Rubye      |
+|  22 | Leland     |
+|  23 | Winnifred  |
+|  24 | Everette   |
+|  25 | Merle      |
+|  26 | Fausto     |
+|  27 | Nia        |
+|  28 | Jessica    |
+|  29 | Bruce      |
+|  30 | Jenifer    |
+|  31 | Salvador   |
+|  32 | Linnea     |
+|  33 | Cristopher |
+|  34 | Leonie     |
+|  35 | Malika     |
+|  36 | Issac      |
+|  37 | Zaria      |
+|  38 | Ottilie    |
+|  39 | Nia        |
+|  40 | Dahlia     |
+|  41 | Ursula     |
+|  42 | Ellen      |
+|  43 | Ova        |
+|  44 | Jordyn     |
+|  45 | Scarlett   |
+|  46 | Jean       |
+|  47 | Charity    |
+|  48 | Gideon     |
+|  49 | Cooper     |
+|  50 | Hester     |
+|  51 | Clovis     |
+|  52 | Johnnie    |
+|  53 | Hugh       |
+|  54 | Remington  |
+|  55 | Glenna     |
+|  56 | Reymundo   |
+|  57 | Archibald  |
+|  58 | Destin     |
+|  59 | Kayley     |
+|  60 | Audra      |
+|  61 | Rollin     |
+|  62 | Herta      |
+|  63 | Kaylie     |
+|  64 | Zita       |
+|  65 | Nina       |
+|  66 | Alfonzo    |
+|  67 | Vita       |
+|  68 | Antonetta  |
+|  69 | Fern       |
+|  70 | Nella      |
+|  71 | Mona       |
+|  72 | Travon     |
+|  73 | Buck       |
+|  74 | Freddy     |
+|  75 | Dolly      |
+|  76 | Jamal      |
+|  77 | Haskell    |
+|  78 | Graciela   |
+|  79 | Elvie      |
+|  80 | Giovanni   |
+|  81 | Shakira    |
+|  82 | Carrie     |
+|  83 | Albert     |
+|  84 | Dominique  |
+|  85 | Oceane     |
+|  86 | Hubert     |
+|  87 | Brice      |
+|  88 | Haylie     |
+|  89 | Ambrose    |
+|  90 | Daphnee    |
+|  91 | Glenda     |
+|  92 | Constance  |
+|  93 | Giovanna   |
+|  94 | Allene     |
+|  95 | Lina       |
+|  96 | Koby       |
+|  97 | Lydia      |
+|  98 | Loy        |
+|  99 | Daisha     |
+| 100 | Fletcher   |
++-----+------------+
+100 rows in set (0.00 sec)
+
+mysql>
